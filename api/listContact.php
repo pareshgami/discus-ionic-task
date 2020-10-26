@@ -6,7 +6,7 @@
 
     $json = json_decode(file_get_contents('php://input'), true);
     $userId = $json['user_id'];
-    $questions = $db->query("SELECT * from question where user_id=:user_id", array("user_id" => $userId));
-    $result = array("status" => 200, 'message' => 'OK', 'data' => $questions);
+    $contacts = $db->query("SELECT * from contacts where user_id=:user_id", array("user_id" => $userId));
+    $result = array("status" => 200, 'message' => 'OK', 'data' => $contacts);
     echo json_encode($result);
 ?>
