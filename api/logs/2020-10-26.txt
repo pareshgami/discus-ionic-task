@@ -1,0 +1,19 @@
+Time : 05:15:17
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+Raw SQL : INSERT INTO question(question_data, user_id) VALUES(:q,:u)
+
+Time : 05:08:26
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+Raw SQL : INSERT INTO question(question_data, user_id) VALUES(:q,:u)
+
+Time : 05:01:10
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+Raw SQL : INSERT INTO question(question_data, user_id) VALUES(:q,:u)
+
+Time : 04:57:01
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+Raw SQL : INSERT INTO question(question_data, user_id) VALUES(:q,:u)
+
+Time : 04:55:33
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'question_data' cannot be null
+Raw SQL : INSERT INTO question(question_data, user_id) VALUES(:q,:u)

@@ -1,0 +1,14 @@
+Time : 20:06:19
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'question_data' cannot be null
+Raw SQL : INSERT INTO question(question_data, user_id) VALUES(:q,:u)
+
+Time : 20:05:58
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+Raw SQL : INSERT INTO question(question_data, user_id) VALUES(:q,:u)
+
+Time : 19:47:19
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'discus.persons' doesn't exist
+Raw SQL : SELECT * FROM Persons WHERE firstname = :firstname AND age = :age
+
+Time : 19:44:01
+SQLSTATE[HY000] [1049] Unknown database 'testdb'
